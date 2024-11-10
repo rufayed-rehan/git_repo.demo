@@ -1,2 +1,3 @@
 # rehans_repo.demo
-first git repository
+My First Git Repository.
+Author : Rufayed Rehan 
