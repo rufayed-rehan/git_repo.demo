@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GIT BASICS</h1>><br>
+    <h2><u>WORK-FLOW :</u></h2><br>
+    Github repo creation =>> Clone link =>> Modify =>> Add =>> Commit =>> Push <br>
+
+    <h3><u>clone : </u></h3><br>
+    cloning repo on our local machine <br>
+    (remote machine (github) to local machine (our laptop,pc) copy) <br>
+    =>> git clone {repo link} <br>
+
+    <h3><u>change directory (folder) : </u></h3><br>
+    =>> cd {folder name} <br>
+    ~> to get out of the directory =>> cd .. <br>
+
+    <h3><u>make directory (folder) : </u></h3><br>
+    makes a new folder <br>
+    =>> mkdir {folder/repo name} <br>
+
+    <h3><u>list : </u></h3><br>
+    shows the list of files in the folder <br>
+    =>> ls <br>
+
+    <h3><u>status : </u></h3><br>
+    display the state of the code <br>
+    check if the file (in the code editor) is modified (edited from github) or not <br>
+    =>> git status <br>
+
+    <h3><u>untracked file : </u></h3><br>
+    new file (created on the code editor), that git does not yet track <br>
+
+    <h3><u>staged (added) : </u></h3><br>
+    file is ready to be commited <br>
+
+    <h3><u>add : </u></h3><br>
+    adds new/changed files on the working directory (folder) to git staging area <br>
+    =>> git add {file name} <br>
+    =>> to add all the modified (changed/edited) files together =>> git add . <br>
+
+    <h3><u>commit : </u></h3><br>
+    the record of change <br>
+    =>> git commit -m "some short message" <br>
+
+    <h3><u>push : </u></h3><br>
+    uploads local repo content (edited or created files on the laptop/pc) to remote repository (github) <br>
+    =>> git push origin main <br>
+    origin=repo; main=branch name <br>
+
+    <h3><u>init command : </u></h3><br>
+    to create ne git repo from the code editor <br>
+    =>> git init ~>to make the repo a git repo <br>
+    =>> git remote add origin {link} ~> git remote add; the origin will be set on the link <br>
+    =>> git remote -v ~> to verify remote <br>
+    =>> git branch ~> to check branch (like master,main...) <br>
+    =>> git branch -M {new branch name} ~> to rename branch <br>
+    =>> git push origin main <br>
+
+</body>
+</html>
