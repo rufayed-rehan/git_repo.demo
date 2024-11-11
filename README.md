@@ -1,4 +1,4 @@
-# rehans_repo.demo
+# git_repo.demo
 First Git Repository.
 <br>
 =>> created for what again ? 
